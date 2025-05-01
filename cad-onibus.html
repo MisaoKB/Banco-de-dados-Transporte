@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Ônibus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="alunos.html">Alunos</a>
+    <a href="add-aluno.html">Novo Aluno</a>
+    <a href="cad-motorista.html">Cadastro de Motorista</a>
+    <a href="cad-onibus.html">Cadastrar Ônibus</a>
+    <a href="logout">Sair</a>
+  </nav>
+  <div class="container">
+    <h2>Cadastro de Ônibus</h2>
+    <form action="/register-bus" method="post">
+      <label for="placa">Placa</label>
+      <input type="text" id="placa" name="placa" required>
+      <label for="capacidade">Capacidade</label>
+      <input type="number" id="capacidade" name="capacidade" required>
+      <label for="modelo">Modelo</label>
+      <input type="text" id="modelo" name="modelo" required>
+      <button type="submit">Cadastrar Ônibus</button>
+    </form>
+  </div>
+</body>
+</html>
