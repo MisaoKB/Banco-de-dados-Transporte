@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alunos - Transporte Escolar</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script>
     function confirmDelete(id) {
-      if(confirm('Confirma exclusão do aluno ' + id + '?')) {
-        document.getElementById('delete-' + id).submit();
+      if (confirm("Confirma exclusão do aluno " + id + "?")) {
+        document.getElementById("delete-" + id).submit();
       }
     }
   </script>
 </head>
+
 <body>
   <nav>
     <a href="alunos.html">Alunos</a>
     <a href="add-aluno.html">Novo Aluno</a>
     <a href="cad-motorista.html">Cadastro de Motorista</a>
     <a href="cad-onibus.html">Cadastrar Ônibus</a>
-    <a href="logout">Sair</a>
+    <a href="index.html">Sair</a>
   </nav>
   <div class="container">
     <h2>Lista de Alunos</h2>
     <table>
       <thead>
         <tr>
-          <th>ID</th><th>Nome</th><th>Escola</th><th>Horário</th><th>Contato</th><th>Ações</th>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Escola</th>
+          <th>Horário</th>
+          <th>Contato</th>
+          <th>Ações</th>
         </tr>
       </thead>
       <tbody>
-        <!-- Exemplo linha -->
+        <!-- Exemplo de aluno cadastrado, as linhas abaixo serão apagadas após vincular o banco de dados -->
         <tr>
-          <td>1</td><td>João Silva</td><td>Escola A</td><td>07:30</td><td>(11)99999-9999</td>
+          <td>1</td>
+          <td>João Silva</td>
+          <td>Escola A</td>
+          <td>07:30</td>
+          <td>(11)99999-9999</td>
           <td>
-            <button class="icon-button" onclick="location.href='/view-student?id=1'">🔍</button>
-            <form id="delete-1" action="/delete-student" method="post" style="display:inline"><input type="hidden" name="id" value="1"></form>
+            <button class="icon-button" onclick="location.href='/view-student?id=1'">
+              🔍
+            </button>
+            <form id="delete-1" action="/delete-student" method="post" style="display: inline">
+              <input type="hidden" name="id" value="1" />
+            </form>
             <button class="icon-button" onclick="confirmDelete(1)">🗑️</button>
-            <button class="icon-button" onclick="location.href='/edit-student?id=1'">🛠️</button>
+            <button class="icon-button" onclick="location.href='/edit-student?id=1'">
+              🛠️
+            </button>
           </td>
         </tr>
       </tbody>
     </table>
   </div>
 </body>
+
 </html>
