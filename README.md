@@ -20,11 +20,15 @@ Documentação disponível no arquivo "*Projeto Banco de Dados*"
 3. Inicie o MySQL e em seguida vá até *Admin* <br><br>
 ![Terceira etapa Tutorial](/tutorial/imagem_tutorial_3-1.png) <br><br>
 ![Terceira etapa Tutorial](/tutorial/imagem_tutorial_3-2.png)
-4. Vá até *Import/Importar* e faça upload do arquivo  **transporte_escolar.sql**  presente nos arquivos baixados na Etapa 1 <br><br>
+4. Vá até *Import/Importar* e faça upload do arquivo  **transporte_escolar.sql**  presente nos arquivos baixados <br><br>
 ![Quarta etapa Tutorial](/tutorial/imagem_tutorial_4.png)
 5. Desça a página até o final e clique em OK <br><br>
 ![Quinta etapa Tutorial](/tutorial/imagem_tutorial_5.png)
-6. Vá até *SQL* e insira o seguinte código 
+6.  Volte no XAMPP e clique no botão *Explorar*, em seguida vá até a pasta *htdocs* e coloque dentro a pasta com os arquivos baixados <br><br>
+![Sexta etapa Tutorial](/tutorial/imagem_tutorial_6-1.png) <br><br>
+![Sexta etapa Tutorial](/tutorial/imagem_tutorial_6-2.png)
+7.  Vá até *SQL* e insira o seguinte código <br><br>
+![Sétima etapa Tutorial](/tutorial/imagem_tutorial_7.png) 
 > `INSERT INTO Escola (Nome, Endereco, Telefone) VALUES ('[Insira o Nome da Escola], '[Endereço da Escola]', '[Telefone da Escola]');`
-7. Entre no site
+8. Entre no site
 > http://localhost/transporte_escolar/index.php
