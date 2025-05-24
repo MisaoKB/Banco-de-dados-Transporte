@@ -14,15 +14,15 @@ Documentação disponível no arquivo "*Projeto Banco de Dados*"
 
 ## Instalação
 
-1. Baixe os arquivos do programa
+1. Baixe os arquivos do programa <br><br>
 ![Primeira etapa Tutorial](/tutorial/imagem_tutorial_1.png)
 2. Instale o programa [XAMPP](https://www.apachefriends.org/pt_br/index.html) marcando para instalar o MySQL e o Apache
-3. Inicie o MySQL e em seguida vá até *Admin*
-![Terceira etapa Tutorial](/tutorial/imagem_tutorial_3-1.png)
+3. Inicie o MySQL e em seguida vá até *Admin* <br><br>
+![Terceira etapa Tutorial](/tutorial/imagem_tutorial_3-1.png) <br><br>
 ![Terceira etapa Tutorial](/tutorial/imagem_tutorial_3-2.png)
-4. Vá até *Import/Importar* e faça upload do arquivo  **transporte_escolar.sql**  presente nos arquivos baixados na Etapa 1
+4. Vá até *Import/Importar* e faça upload do arquivo  **transporte_escolar.sql**  presente nos arquivos baixados na Etapa 1 <br><br>
 ![Quarta etapa Tutorial](/tutorial/imagem_tutorial_4.png)
-5. Desça a página até o final e clique em OK
+5. Desça a página até o final e clique em OK <br><br>
 ![Quinta etapa Tutorial](/tutorial/imagem_tutorial_5.png)
 6. Vá até *SQL* e insira o seguinte código 
 > `INSERT INTO Escola (Nome, Endereco, Telefone) VALUES ('[Insira o Nome da Escola], '[Endereço da Escola]', '[Telefone da Escola]');`
