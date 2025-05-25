@@ -2,6 +2,17 @@
 
 Projeto de terceiro semestre da faculdade destinado a ajudar **escolas de bairro**, com núcleo do projeto sendo o gerenciamento dos **motoristas escolares** usando um sistema de banco de dados *MySQL*.
 
+## Membros do projeto e RAs
+
+- Danilo Batista Pereira: 3022106926
+- Erick Fernando Priore Michelan: 3023104368
+- Guilherme Fonseca Oliva: 3025104317
+- Guilherme Messias de França: 3024105228
+- Kauan Faria Nascimento: 3024103486
+- Matheus Osmédio Araujo: 3024102070
+- Matheus Paulucci Ferreira: 3024104172
+- Sílvio Bernardo Sapuile: 3023203839
+
 ## Lista de Funções
 
 - Tabelas para Motoristas, Veiculos, Alunos, Responsáveis e Escolas  :pencil: 
