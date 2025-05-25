@@ -21,7 +21,7 @@ Projeto de terceiro semestre da faculdade destinado a ajudar **escolas de bairro
 - Hospedagem local na máquina :file_folder:
 
 ## Documentação
-Documentação disponível no arquivo "*Projeto Banco de Dados*"
+Documentação disponível no arquivo "*Documentação banco de dados*"
 
 ## Instalação
 
